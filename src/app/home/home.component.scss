@@ -6,10 +6,10 @@
     padding: .4em 1.3em;
 }
 .color-dark {
-    background: #2885C4;
+    background: rgb(29, 61, 82);
 }
 .color-light {
-    background: #57B3F1;
+    background: rgb(136, 159, 173);
 }
 
 input.txt {
@@ -27,9 +27,17 @@ input.btn {
     margin-bottom:1em;
     cursor:pointer;
 }
-.life-container {
-    background:#3FA0E1;
+.toDo-container {
+    background:#A5F883;
     padding:.5em;
     font-weight:bold;
     cursor:pointer;
+    text-align: center;
+    color: #333;
+
+    &:hover{
+        background: rgb(80, 100, 97);
+        color: #fff;
+
+    }
 }
